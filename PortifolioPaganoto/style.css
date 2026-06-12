@@ -126,7 +126,9 @@ body {
 }
 /* Botão de Contato */
 .botão {
-    display: flex;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
     background-color: #ffee00; /* Amarelo */
     color: #1772b8; /* Texto Azul para contraste */
     font-weight: bold;
@@ -134,7 +136,6 @@ body {
     border-radius: 25px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: transform 0.2s, background-color 0.3s;
-    margin: 0 auto;
 }
 
 .botão:hover {
